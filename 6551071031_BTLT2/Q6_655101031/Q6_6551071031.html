@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Q6 creat form</title>
+    </head>
+    <style>
+        td {padding: 5px 50px;}
+    </style>
+    <body>
+        <h2>HTML Form Test</h2>
+        <form action = "noichuadata.com">
+        <table>
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><input type="text" id="address" name="address"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="text" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobbies">Hobbies</label></td>
+                <td>
+                    <input type="checkbox" id="sports" name="hobbies" value="sports">
+                    <label for="sports">Sports</label>
+                    <input type="checkbox" id="movies" name="hobbies" value="movies">
+                    <label for="movies">Movies</label>
+                    <input type="checkbox" id="travelling" name="hobbies" value="travelling">
+                    <label for="travelling">Travelling</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="country">Country</label></td>
+                <td>
+                    <select id="country" name="country">
+                        <option value="nepal">Nepal</option>
+                        <option value="india">India</option>
+                        <option value="vietnam">Vietnam</option>
+                        <option value="japan">Japan</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="message">Message</label></td>
+                <td><textarea id="message" name="message" rows="8" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
