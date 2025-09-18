@@ -2,57 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>User Information Form</title>
+    <title>Q4</title>
 </head>
 <body>
-    <h2>User Information Form</h2>
-
-    <form action="process.php" method="get">
+    <h1 style="color:red">INPUT INFORMATION</h1>
+    <form action="noichuadulieu.com" method="get">
         <!-- Name -->
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
 
         <!-- Age -->
         <label>Age:</label><br>
-        <input type="radio" id="age1" name="age" value="<18" required>
-        <label for="age1">&lt;18</label><br>
+        <input type="radio" id="age1" name="age" value="<18">
+        <label for="age1">&lt;18</label>
         <input type="radio" id="age2" name="age" value="19-35">
-        <label for="age2">19-35</label><br>
+        <label for="age2">19–35</label>
         <input type="radio" id="age3" name="age" value="36-48">
-        <label for="age3">36-48</label><br>
+        <label for="age3">36–48</label>
         <input type="radio" id="age4" name="age" value=">49">
         <label for="age4">&gt;49</label><br><br>
 
         <!-- Profession -->
-        <label for="profession">Profession:</label>
-        <input type="text" id="profession" name="profession" required><br><br>
+        <label for="profession">Profession:</label><br>
+        <input type="text" id="profession" name="profession"><br><br>
 
         <!-- Country -->
-        <label for="country">Country:</label>
-        <select id="country" name="country" required>
-            <option value="">--Select--</option>
-            <option value="Vietnam">Vietnam</option>
-            <option value="USA">USA</option>
-            <option value="UK">UK</option>
-            <option value="Japan">Japan</option>
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="vn">Việt Nam</option>
+            <option value="us">Hoa Kỳ</option>
+            <option value="uk">Anh</option>
+            <option value="jp">Nhật Bản</option>
+            <option value="kr">Hàn Quốc</option>
         </select><br><br>
 
         <!-- Interests -->
-        <label>Interests:</label><br>
-        <input type="checkbox" id="sports" name="interests" value="Sports">
-        <label for="sports">Sports</label><br>
-        <input type="checkbox" id="music" name="interests" value="Music">
-        <label for="music">Music</label><br>
-        <input type="checkbox" id="travel" name="interests" value="Travel">
-        <label for="travel">Travel</label><br>
-        <input type="checkbox" id="reading" name="interests" value="Reading">
-        <label for="reading">Reading</label><br><br>
+        <label for="interests">Interests:</label><br>
+        <select id="interests" name="interests" multiple size="5">
+            <option value="sports">Thể thao</option>
+            <option value="music">Âm nhạc</option>
+            <option value="travel">Du lịch</option>
+            <option value="reading">Đọc sách</option>
+            <option value="gaming">Chơi game</option>
+        </select><br><br>
 
-        <!-- How user found out -->
-        <label for="feedback">How did you find out about this site?</label><br>
-        <textarea id="feedback" name="feedback" rows="4" cols="40"></textarea><br><br>
+        <!-- Discover -->
+        <label for="discover">How did you find out about the site?</label><br>
+        <textarea id="discover" name="discover" rows="4" cols="50"></textarea><br><br>
 
-        <!-- Submit -->
+        <!-- Submit button -->
         <input type="submit" value="Submit">
     </form>
 </body>
