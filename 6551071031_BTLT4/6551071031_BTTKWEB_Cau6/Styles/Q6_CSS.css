@@ -1,0 +1,66 @@
+     
+      * { box-sizing: border-box; }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px;
+        color: #222;
+      }
+  
+      img{
+        width: 90px;
+        text-align: center;
+      }
+
+ 
+      table {
+        width: 100%;
+        max-width: 1000px;
+        border-collapse: collapse;
+        border: 3px solid #c33; /* viền ngoài */
+      }
+
+      th, td {
+        border: 1px solid rgb(255, 0, 0);
+        padding: 10px;
+        vertical-align: top;
+      }
+
+      th.top {
+        background-color: #c62828;
+        color: #fff;
+        font-weight: 700;
+        font-size: 16px;
+        text-align: right;
+      }
+
+      th.title {
+        background: #f7d7d7;
+        color: #c62828;
+        font-size: 28px;
+        text-align: center;
+        padding: 18px;
+      }
+
+      /* cột phải: ảnh */
+      .right-top {
+        text-align: center;
+        padding-bottom: 8px;
+      }
+      .right-top img {
+        max-width: 140px; /* chỉnh kích thước ảnh */
+        height: auto;
+        display: inline-block;
+      }
+
+      /* danh sách */
+      .li { color: #c62828; font-weight: 700; margin-bottom: 6px; }
+      .lu { list-style-type: square; margin: 6px 0 12px 18px; padding: 0; }
+      .sublist { list-style-type: disc; margin: 6px 0 6px 18px; padding: 0; }
+
+      ol.numbered { margin: 6px 0 0 18px; padding: 0; }
+
+      /* responsive nhỏ */
+      @media (max-width: 700px) {
+        table { font-size: 14px; }
+        .right-top img { max-width: 100px; }
+      }

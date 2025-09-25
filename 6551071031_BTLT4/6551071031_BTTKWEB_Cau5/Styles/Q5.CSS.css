@@ -1,0 +1,18 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: red;
+    border: 1px solid orange¬ø;
+    padding: 8px;
+    text-align: center;
+}
+td{
+    border: 1px solid orange;
+    padding: 8px;
+    text-align: center;
+}
+span{
+    color : orange;
+}
