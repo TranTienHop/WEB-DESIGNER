@@ -1,0 +1,40 @@
+body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+    }
+    .form-box {
+      width: 600px;
+      border: 1px solid #333;
+      margin: 30px auto;
+      background: #e6ffe6;
+    }
+    h2 {
+      text-align: center;
+      color: green;
+      margin: 10px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 6px;
+      border: 1px solid #aaa;
+    }
+    input[type="text"], 
+    select {
+      width: 95%;
+      padding: 4px;
+    }
+    .btn {
+      padding: 6px 15px;
+      background: #ddd;
+      border: 1px solid #555;
+      cursor: pointer;
+    }
+    .success {
+      color: red;
+      text-align: center;
+      font-weight: bold;
+      margin: 10px;
+    }
