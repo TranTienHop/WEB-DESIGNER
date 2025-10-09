@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Xuất thứ trong tuần</title>
+  <link rel="stylesheet" href="Styles/style_24.css">
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td>Ngày</td>
+        <td><input type="number" id="ngay" value=""></td>
+        <td>Tháng Select:</td>
+        <td>
+          <select id="thang">
+            <option value="1"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+        </td>
+        <td>năm</td>
+        <td><input type="number" id="nam" value=""></td>
+      </tr>
+      <tr>
+        <td colspan="6" align ="center">
+          <input type="button" value="Xuất thứ" onclick="xuatThu()">
+        </td>
+      </tr>
+      <tr>
+        <td colspan="6" id="ketqua"></td>
+      </tr>
+    </table>
+  </form>
+
+  <script src="Scripts/script_24.js"></script>
+</body>
+</html>

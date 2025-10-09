@@ -1,0 +1,65 @@
+body {
+  font-family: 'Times New Roman', serif;
+  text-align: center;
+  background-color: white;
+}
+
+table {
+  margin: 30px auto;
+  border: 2px solid blue;
+  border-collapse: collapse;
+  width: 600px;
+  background-color: #ffff66; /* nền vàng */
+}
+
+th {
+  background-color: #ffff33;
+  color: black;
+  font-size: 22px;
+  border: 2px solid blue;
+  padding: 8px;
+}
+
+td {
+  border: 2px solid blue;
+  vertical-align: top;
+  text-align: left;
+  padding: 8px;
+  width: 33%;
+}
+
+button {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: 1px solid rgb(87, 26, 26);
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f0f0f0;
+}
+
+.center {
+  text-align: center;
+}
+
+#ketqua {
+  width: 600px;
+  margin: 20px auto;
+  border: 2px solid blue;
+  background-color: #ccffcc;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#ketqua table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#ketqua td, #ketqua th {
+  border: 1px solid blue;
+  padding: 6px;
+}

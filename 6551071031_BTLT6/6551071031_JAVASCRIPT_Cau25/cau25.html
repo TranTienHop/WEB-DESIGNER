@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tính tiền món ăn</title>
+  <link rel="stylesheet" href="Styles/style_cau25.css">
+</head>
+<body>
+  <table id="menu">
+    <tr>
+      <th colspan="3" id="tieude">THỰC ĐƠN</th>
+    </tr>
+    <tr>
+      <td>
+        <b>Thức ăn</b><br>
+        <input type="checkbox" name="food" value="Bún bò"> Bún bò<br>
+        <input type="checkbox" name="food" value="Hủ tiếu"> Hủ tiếu<br>
+        <input type="checkbox" name="food" value="Bánh canh"> Bánh canh<br>
+        <input type="checkbox" name="food" value="Phở bò"> Phở bò<br>
+        <input type="checkbox" name="food" value="Bánh mì thịt"> Bánh mì thịt<br>
+        <input type="checkbox" name="food" value="Nui"> Nui
+      </td>
+      <td>
+        <b>Nước uống</b><br>
+        <input type="checkbox" name="drink" value="Cà phê đá"> Cà phê đá<br>
+        <input type="checkbox" name="drink" value="Cà phê sữa đá"> Cà phê sữa đá<br>
+        <input type="checkbox" name="drink" value="Chanh dây"> Chanh dây<br>
+        <input type="checkbox" name="drink" value="Sữa tươi"> Sữa tươi<br>
+        <input type="checkbox" name="drink" value="Cam vắt"> Cam vắt<br>
+        <input type="checkbox" name="drink" value="Xí muội"> Xí muội
+      </td>
+      <td>
+        <b>Thời điểm</b><br>
+        <input type="radio" name="time" value="day" checked> Ban ngày<br>
+        <input type="radio" name="time" value="night"> Ban đêm
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="center">
+        <button onclick="tinhTien()">Tính tiền</button>
+      </td>
+    </tr>
+  </table>
+
+  <div id="ketqua"></div>
+
+  <script src="Scripts/js_cau25.js"></script>
+</body>
+</html>

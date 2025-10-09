@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Tính lương tháng</title>
+  <link rel="stylesheet" href="Styles/style_23.css">
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td>Lương</td>
+        <td><input type="number" id="luong" value=""></td>
+      </tr>
+      <tr>
+        <td>Hệ số lương</td>
+        <td><input type="number" id="heso" value="" step="0.1"></td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center">
+          <input type="button" value="Tính lương tháng" onclick="tinhLuong()">
+        </td>
+      </tr>
+      <tr>
+        <td>Lương tháng</td>
+        <td><input type="text" id="luongthang" readonly></td>
+      </tr>
+    </table>
+  </form>
+
+  <script src="Scripts/script_23.js"></script>
+</body>
+</html>
