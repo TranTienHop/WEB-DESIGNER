@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation Exercise</title>
+ <link rel="stylesheet" href="Styles/Q9.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <form id="personalInfoForm">
+    <h2>Personal Information</h2>
+
+    <label>Enter name *:</label>
+    <input type="text" id="name">
+
+    <label>Sex *:</label>
+    <div class="gender">
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+    </div>
+
+    <label>Enter email address *:</label>
+    <input type="text" id="email">
+
+    <label>Enter birthday (MM/DD/YYYY)*:</label>
+    <input type="text" id="birthday" placeholder="MM/DD/YYYY">
+
+    <label>Enter street address *:</label>
+    <input type="text" id="address">
+
+    <label>Select a region *:</label>
+    <input type="text" id="region">
+
+    <label>Enter 5-digit ZIP code *:</label>
+    <input type="text" id="zipcode">
+
+    <div class="buttons">
+      <button type="button" id="finishBtn">Finish</button>
+      <button type="button" id="clearBtn">Clear</button>
+    </div>
+
+    <div id="error-message"></div>
+  </form>
+
+  <script src="Scripts/Q9.js">
+
+  </script>
+</body>
+</html>
