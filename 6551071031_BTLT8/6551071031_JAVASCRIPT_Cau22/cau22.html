@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng ký CV</title>
+    <link rel="stylesheet" href="Styles/cau22.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Đăng Ký CV</h2>
+        <form id="cvForm">
+            <label>Họ và tên:</label>
+            <input type="text" id="hoten"><br>
+
+            <label>Địa chỉ:</label>
+            <input type="text" id="diachi"><br>
+
+            <label>Điện thoại:</label>
+            <input type="text" id="sdt"><br>
+
+            <label>Email:</label><br>
+            <input type="email" id="email"><br>
+
+            <label>Nghề nghiệp:</label>
+            <input type="text" id="nghenghiep"><br>
+
+            <label>Ảnh đại diện:</label>
+            <input type="file" id="anh"><br><br>
+
+            <div id="kynang-container">
+                <label>Kỹ năng:</label>
+                <input type="text" class="kynang" placeholder="Tên kỹ năng">
+                <label><br>Mức độ:</label>
+                <input type="range" min="0" max="100" class="mucdo">
+                <button type="button" id="addSkill">Thêm kỹ năng</button>
+            </div>
+            <br>
+            <button type="button" id="dangky">Đăng ký</button>
+        </form>
+    </div>
+
+    <div id="ketqua" class="result"></div>
+
+    <script src="Scripts/cau22.js"></script>
+</body>
+</html>

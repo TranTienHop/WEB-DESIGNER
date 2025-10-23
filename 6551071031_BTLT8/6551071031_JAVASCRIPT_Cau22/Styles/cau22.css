@@ -1,0 +1,53 @@
+body {
+    background-color: #FFACCA;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.form-container {
+    width: 400px;
+    background: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+input, button {
+    margin: 5px;
+    padding: 6px;
+    width: 80%;
+}
+
+button {
+    background-color: #009fc6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007a95;
+}
+
+.result {
+    width: 400px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skill-bar {
+    background: #ddd;
+    height: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.skill-fill {
+    background: #009fc6;
+    height: 100%;
+}
