@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shop Ortho - Khí cụ chỉnh nha chính hãng</title>
+  <link rel="stylesheet" href="Styles/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- Thanh trên cùng -->
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span><i class="fa fa-envelope"></i> support@shoportho.vn</span>
+        <span class="sep">|</span>
+        <span>Miễn phí vận chuyển cho đơn trên 2.000.000₫</span>
+      </div>
+      <div class="topbar-right">
+        <div class="socials">
+          <a href="#" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="youtube"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="auth">
+          <a href="#">Đăng nhập</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-wrap">
+        <a href="/index.html" class="logo">
+          <img src="/Images/anh_0.jpg" alt="Shop Ortho">
+          <span class="logo-text">SHOP <strong>ORTHO</strong></span>
+        </a>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li class="active"><a href="/index.html">Trang chủ</a></li>
+          <li><a href="#">Sản phẩm</a></li>
+          <li class="has-dropdown">
+            <a href="#">Danh mục <i class="fa fa-caret-down caret"></i></a>
+            <ul class="dropdown">
+              <li><a href="#">Dây cung chỉnh nha</a></li>
+              <li><a href="#">Kềm & dụng cụ</a></li>
+              <li><a href="#">Khí cụ tháo lắp</a></li>
+              <li><a href="#">Vật tư tiêu hao</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="hotline">
+          <i class="fa fa-phone"></i>
+          <div>
+            <div class="small">Hotline</div>
+            <div class="big">0909 999 999</div>
+          </div>
+        </div>
+
+        <div class="cart">
+          <a href="#" aria-label="Giỏ hàng"><i class="fa fa-shopping-bag"></i><span class="cart-count">3</span></a>
+        </div>
+
+        <button class="mobile-toggle" aria-label="Mở menu"><i class="fa fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-cats">
+        <button class="cats-toggle"><i class="fa fa-bars"></i> Danh mục khí cụ</button>
+        <ul class="cats-list">
+          <li><a href="#">Dây cung chỉnh nha</a></li>
+          <li><a href="#">Kềm, nhíp, dụng cụ</a></li>
+          <li><a href="#">Khí cụ tháo lắp</a></li>
+          <li><a href="#">Gương & phụ kiện</a></li>
+          <li><a href="#">Chất dán & keo</a></li>
+          <li><a href="#">Vật tư tiêu hao</a></li>
+        </ul>
+      </div>
+
+      <div class="hero-search">
+        <div class="search-box">
+          <select class="search-category" aria-label="Danh mục">
+            <option>Tất cả danh mục</option>
+            <option>Dây cung</option>
+            <option>Kềm</option>
+            <option>Khí cụ</option>
+            <option>Phụ kiện</option>
+          </select>
+          <input type="text" class="search-input" placeholder="Tìm khí cụ, dây cung, vật tư..." />
+          <button class="search-btn"><i class="fa fa-search"></i> Tìm</button>
+        </div>
+
+        <div class="support">
+          <i class="fa fa-headset"></i>
+          <div>
+            <div class="small">Tư vấn</div>
+            <div class="big">24/7</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-banner">
+        <div class="banner-card" style="background-image: url('Images/anh_1.jpg');">
+          <div class="banner-text">
+            <span class="sub">CHẤT LƯỢNG HÀNG ĐẦU</span>
+            <h2>Shop Ortho<br /><strong>Khí cụ chỉnh nha chính hãng</strong></h2>
+            <p>Nhập khẩu trực tiếp – Giá tốt cho phòng khám & nha sĩ</p>
+            <a href="#" class="btn-primary">Xem sản phẩm</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sản phẩm nổi bật -->
+  <section class="featured">
+    <div class="container">
+      <div class="section-head">
+        <h2>Khí cụ nổi bật</h2>
+        <div class="filters">
+          <button class="active">Tất cả</button>
+          <button>Dây cung</button>
+          <button>Kềm</button>
+          <button>Phụ kiện</button>
+        </div>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_2.jpg" alt="Dây cung chỉnh nha"></div>
+          <h3 class="title">Dây cung NiTi cao cấp</h3>
+          <div class="price">350.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_3.jpg" alt="Kềm chỉnh nha"></div>
+          <h3 class="title">Kềm chỉnh nha đa năng</h3>
+          <div class="price">1.250.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_4.jpg" alt="Khí cụ tháo lắp"></div>
+          <h3 class="title">Khí cụ tháo lắp Inox</h3>
+          <div class="price">890.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_5.jpg" alt="Bộ gương nha khoa"></div>
+          <h3 class="title">Bộ gương & đầu thăm nha khoa</h3>
+          <div class="price">420.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="col">
+        <h4>Về Shop Ortho</h4>
+        <p>Shop Ortho — chuyên cung cấp khí cụ chỉnh nha, dụng cụ nha khoa, vật tư tiêu hao chính hãng. 
+          Cam kết chất lượng và giá ưu đãi cho nha sĩ & phòng khám.</p>
+      </div>
+
+      <div class="col">
+        <h4>Liên hệ</h4>
+        <ul class="contact-list">
+          <li><i class="fa fa-map-marker-alt"></i> 123 Đường Nha Khoa, Quận 5, TP.HCM</li>
+          <li><i class="fa fa-phone"></i> 0909 999 999</li>
+          <li><i class="fa fa-envelope"></i> support@shoportho.vn</li>
+        </ul>
+      </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Shop Ortho. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
