@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Shop Ortho - Khí cụ chỉnh nha chính hãng</title>
+  <title>Sản phẩm - Shop Ortho</title>
   <link rel="stylesheet" href="Styles/styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -45,8 +45,8 @@
 
       <nav class="main-nav">
         <ul>
-          <li class="active"><a href="main.html">Trang chủ</a></li>
-          <li><a href="san-pham.html">Sản phẩm</a></li>
+          <li><a href="main.html">Trang chủ</a></li>
+          <li class="active"><a href="san-pham.html">Sản phẩm</a></li>
           <li class="has-dropdown">
             <a href="#">Danh mục <i class="fa fa-caret-down caret"></i></a>
             <ul class="dropdown">
@@ -79,65 +79,16 @@
     </div>
   </header>
 
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-cats">
-        <button class="cats-toggle"><i class="fa fa-bars"></i> Danh mục khí cụ</button>
-        <ul class="cats-list">
-          <li><a href="day-cung.html">Dây cung chỉnh nha</a></li>
-          <li><a href="kem-dung-cu.html">Kềm, nhíp, dụng cụ</a></li>
-          <li><a href="khi-cu-thao-lap.html">Khí cụ tháo lắp</a></li>
-          <li><a href="san-pham.html">Gương & phụ kiện</a></li>
-          <li><a href="san-pham.html">Chất dán & keo</a></li>
-          <li><a href="vat-tu-tieu-hao.html">Vật tư tiêu hao</a></li>
-        </ul>
-      </div>
-
-      <div class="hero-search">
-        <div class="search-box">
-          <select class="search-category" aria-label="Danh mục">
-            <option>Tất cả danh mục</option>
-            <option>Dây cung</option>
-            <option>Kềm</option>
-            <option>Khí cụ</option>
-            <option>Phụ kiện</option>
-          </select>
-          <input type="text" class="search-input" placeholder="Tìm khí cụ, dây cung, vật tư..." />
-          <button class="search-btn"><i class="fa fa-search"></i> Tìm</button>
-        </div>
-
-        <div class="support">
-          <i class="fa fa-headset"></i>
-          <div>
-            <div class="small">Tư vấn</div>
-            <div class="big">24/7</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-banner">
-        <div class="banner-card" style="background-image: url('Images/anh_1.jpg');">
-          <div class="banner-text">
-            <span class="sub">CHẤT LƯỢNG HÀNG ĐẦU</span>
-            <h2>Shop Ortho<br /><strong>Khí cụ chỉnh nha chính hãng</strong></h2>
-            <p>Nhập khẩu trực tiếp – Giá tốt cho phòng khám & nha sĩ</p>
-            <a href="san-pham.html" class="btn-primary">Xem sản phẩm</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sản phẩm nổi bật -->
-  <section class="featured">
+  <!-- Nội dung chính -->
+  <section class="featured" style="padding-top: 40px;">
     <div class="container">
       <div class="section-head">
-        <h2>Khí cụ nổi bật</h2>
+        <h2>Tất cả sản phẩm</h2>
         <div class="filters">
           <button class="active">Tất cả</button>
           <button>Dây cung</button>
           <button>Kềm</button>
+          <button>Khí cụ</button>
           <button>Phụ kiện</button>
         </div>
       </div>
@@ -182,6 +133,46 @@
             <a href="#" class="btn-primary">Thêm vào giỏ</a>
           </div>
         </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_day_cung_2.jpg" alt="Dây cung SS"></div>
+          <h3 class="title">Dây cung thép không gỉ SS</h3>
+          <div class="price">280.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_kiem_2.jpg" alt="Kềm cắt dây"></div>
+          <h3 class="title">Kềm cắt dây cung chuyên dụng</h3>
+          <div class="price">650.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_khi_cu_2.jpg" alt="Mắc cài sứ"></div>
+          <h3 class="title">Mắc cài sứ thẩm mỹ</h3>
+          <div class="price">1.500.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="pic"><img src="Images/anh_thun_1.jpg" alt="Chun chỉnh nha"></div>
+          <h3 class="title">Chun chỉnh nha cao su</h3>
+          <div class="price">150.000₫</div>
+          <div class="actions">
+            <a href="#" class="btn-outline">Chi tiết</a>
+            <a href="#" class="btn-primary">Thêm vào giỏ</a>
+          </div>
+        </article>
       </div>
     </div>
   </section>
@@ -215,3 +206,4 @@
   <script src="Scripts/script.js"></script>
 </body>
 </html>
+
